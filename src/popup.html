@@ -2,12 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinkedIn Name Extractor</title>
-    <script type="module" src="../src/popup.ts"></script>
-    <link href="../src/popup.css" rel="stylesheet">
+    <script type="module" src="popup.js"></script>
+    <link href="popup.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Name: </h1>
-    <div id="name">Fetching name...</div>
+    <div class="container">
+        <h1 class="title">LinkedIn Name</h1>
+        <div id="name" class="name-display">Name: <span>Fetching name...</span></div>
+    </div>
 </body>
 </html>
